@@ -1,3 +1,10 @@
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
 .navbar .open .dropdown-menu > li > a:hover,
 .navbar .open .dropdown-menu > li > a:focus,
 .navbar .open .dropdown-menu > .active > a,
