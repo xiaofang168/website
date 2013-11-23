@@ -57,9 +57,109 @@
 	</nav>
 	
 	<div class="row">
-		
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#step1" data-toggle="tab"><b>step 1:</b> overview</a></li>
+			<li><a href="#"><b>step 2:</b> personal info</a></li>
+			<li><a href="#"><b>step 3:</b> confirmation</a></li>
+			<li><a href="#"><b>step 4:</b> payment</a></li>
+		</ul>
+		<div class="container">
+			<form class="form-inline" role="form">
+				<div class="tab-content">
+					<div class="tab-pane active" id="step1">
+						<div class="row">
+							<div class="col-xs-12">
+								<table class="table">
+									<thead>
+										<tr>
+											<th></th>
+											<th></th>
+											<th>Count</th>
+											<th>Each(incl. tax)</th>
+											<th>total</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<img src="https://apps.bigbase.nl/templates/data/web/5001/img/product_01.jpg" width="75">
+											</td>
+											<td>
+												<a href="detail.html">Product A - Possibly with a short description, or some detail info</a>
+												<p>More info or a more complex description.</p>
+											</td>
+											<td>
+												<div class="row">
+													<div class="col-xs-12">
+														<div class="form-group">
+															<button class="btn btn-default">-</button>
+														</div>
+														<div class="form-group">
+															<input type="text" value="1" class="form-control"/>
+														</div>
+														<div class="form-group">
+															<button class="btn btn-default">+</button>
+														</div>
+														<div class="form-group">
+															<button class="btn" title="delete"><i class="glyphicon glyphicon-trash"></i></button>
+														<div>
+													</div>
+													
+												</div>
+											</td>
+											<td align="center">€ 123,-</td>
+											<td align="center">€ 123,-</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="https://apps.bigbase.nl/templates/data/web/5001/img/product_01.jpg" width="75">
+											</td>
+											<td>
+												<a href="detail.html">Product A - Possibly with a short description, or some detail info</a>
+												<p>More info or a more complex description.</p>
+											</td>
+											<td>
+												<div class="row">
+													<div class="col-xs-12">
+														<div class="form-group">
+															<button class="btn btn-default">-</button>
+														</div>
+														<div class="form-group">
+															<input type="text" value="1" class="form-control"/>
+														</div>
+														<div class="form-group">
+															<button class="btn btn-default">+</button>
+														</div>
+														<div class="form-group">
+															<button class="btn" title="delete"><i class="glyphicon glyphicon-trash"></i></button>
+														<div>
+													</div>
+													
+												</div>
+											</td>
+											<td align="center">€ 123,-</td>
+											<td align="center">€ 123,-</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<div class="row">
+				<div class="col-xs-4">
+					<a href="products.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Continue shopping</a>
+				</div>
+				<div class="col-xs-4">
+					<button class="btn"><i class="glyphicon glyphicon-trash"></i> Empty cart</button>
+				</div>
+				<div class="col-xs-4">
+					<button class="btn btn-primary pull-right" data-target="#step2" data-toggle="tab">Next <i class="glyphicon glyphicon-chevron-right"></i></button>
+				</div>
+			</div>
+		</div>
 	</div>
-
 </div>
 <footer class="footer">
 	<div class="well text-center">
