@@ -1,0 +1,17 @@
+ .price {
+	font-size:400%;
+	line-height:150%;
+	position:absolute;
+	z-index:10;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	/* Use for rotating price (IE9+) */
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	-o-transform:rotate(5deg);
+	-ms-transform:rotate(5deg);
+}
